@@ -7,4 +7,4 @@ client = Twitter::REST::Client.new do |config|
   config.access_token_secret = "YOUR_ACCESS_SECRET"
 end
 
-client.update("I built a script to tweet this using One Month Ruby! https://onemonth.com/courses/one-month-ruby")
+client.update("Tweet This")
